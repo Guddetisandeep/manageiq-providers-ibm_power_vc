@@ -9,6 +9,7 @@ class ManageIQ::Providers::IbmPowerVc::CloudManager < ManageIQ::Providers::Opens
   require_nested :Provision
   require_nested :ProvisionWorkflow
   require_nested :EventCatcher
+  require_nested :EventParser
   require_nested :Flavor
   require_nested :HostAggregate
   require_nested :MetricsCapture
